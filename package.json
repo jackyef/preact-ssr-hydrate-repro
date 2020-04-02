@@ -1,0 +1,30 @@
+{
+  "name": "preact-ssr-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "webpack -w",
+    "start:server": "babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.6.3",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "7.6.3",
+    "babel-loader": "8",
+    "webpack": "4",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "preact": "10",
+    "preact-render-to-string": "5",
+    "preact-router": "^2.6.0"
+  }
+}
